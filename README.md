@@ -9,7 +9,7 @@ h1~h6
 br  
 img  
 
-You could support more tags if need. 
+You clone those code to support more HTML tags if need. 
 
 Cheers,  
 
