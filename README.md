@@ -1,15 +1,15 @@
 HTML to ENML UTIL
 ============
 
-A simple convert that convert html to enml.
-Handle below HTML tags only:
-p
-a
-h
-br
-img
+A simple converter that convert html to enml (Evernote format).  
+Handle below HTML tags only:  
+p  
+a  
+h  
+br  
+img  
 
-Please let me know if you have any questions. 
+You could support more tags if need. 
 
 Cheers,  
 
@@ -19,7 +19,20 @@ web: https://drawnews.cc
 
 app: https://itunes.apple.com/us/app/drawnews-gtd-designed-rss/id695442462?mt=8
 
+# Usage  
+1.  Import "DNEvernoteUtil.h"  
+2.  NSString* enml = [[DNEvernoteUtil sharedClient] convertToENML:html];
 
+# FLOW
+
+1.  Convert HTML to XHTML
+2.  Iterate all XML nodes
+3.  Dump ENML format on each XML node
+
+
+# Credit
+1.  CTidy, Jonathan Wight on 03/07/08
+2.  NSString+HTML, Michael Waterfall on 2010
 
 # Licensing
 
