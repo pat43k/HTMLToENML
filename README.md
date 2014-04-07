@@ -1,11 +1,11 @@
-HTML to ENML UTIL
+HTML to ENML UTIL (objective C)
 ============
 
-A simple converter that convert html to enml (Evernote format).  
+A simple converter that convert html to enml format (Evernote format).  
 Handle below HTML tags only:  
 p  
 a  
-h  
+h1~h6  
 br  
 img  
 
@@ -31,8 +31,8 @@ app: https://itunes.apple.com/us/app/drawnews-gtd-designed-rss/id695442462?mt=8
 
 
 # Credit
-1.  CTidy, Jonathan Wight on 03/07/08
-2.  NSString+HTML, Michael Waterfall on 2010
+1.  CTidy, by Jonathan Wight on 03/07/08
+2.  NSString+HTML, by Michael Waterfall on 2010
 
 # Licensing
 
